@@ -33,8 +33,3 @@ Bayut API https://rapidapi.com/apidojo/api/bayut/
 ```
   npm run dev
 ```
-
-## Preview
-
-![alt text](http://url/to/img.png)
-
