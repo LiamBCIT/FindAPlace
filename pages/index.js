@@ -24,8 +24,15 @@ export default function Home({ propertyForSale, propertyForRent}) {
   console.log(propertyForSale, propertyForRent);
 
   return (
+    <>
+          <meta name = "author" content = "Advanced Dynamic Content Project" />
+          <meta property = "title" content = "FindAPlace" />
+          <meta property="description" content="FindAPlace showcases live real estate listings that can be sorted in all sorts of ways!" />
+          <link rel="icon" href="/favicon.ico" />
+
         <Box>
-          <Banner 
+          <Banner
+            id="RentAHomeBanner"
             purpose="Rent A Home"
             title1="Rental Homes For"
             title2="Everyone"
@@ -52,6 +59,7 @@ export default function Home({ propertyForSale, propertyForRent}) {
           {propertyForSale.map((property) => <Property property={property} key={property.id}/>)}
           </Flex>
         </Box>
+    </>
   )
 }
 
