@@ -15,7 +15,6 @@ const Banner = ({purpose, title1, title2, desc1, desc2, buttonText, linkName, im
       <Button fontSize="xl">
         <Link href={linkName}>{buttonText}</Link>
       </Button>
-
     </Box>
   </Flex>
 )

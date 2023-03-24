@@ -1,6 +1,6 @@
 import Link from 'next/link'; //fix: defualt export removing curly {}
 import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } from '@chakra-ui/react';
-import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
+import { FcMenu, FcHome, FcAbout, FcFaq } from 'react-icons/fc';
 import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
 
@@ -25,6 +25,9 @@ const Navbar = () => (
                 </Link>
                 <Link href="/search?purpose=for-rent" passHref>
                     <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
+                </Link>
+                <Link href="/about" passHref>
+                    <MenuItem icon={<FcFaq />}>About</MenuItem>
                 </Link>
             </MenuList>
             </Menu>
