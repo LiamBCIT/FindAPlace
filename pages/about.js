@@ -4,6 +4,7 @@ import { Flex, Box, Text, Button } from '@chakra-ui/react';
 
 export default function About() {
     console.log(AboutPage);
+
     return (
         <>
             <meta name="author" content="Advanced Dynamic Content Project" />
