@@ -9,7 +9,7 @@ import millify from 'millify';
 import { baseUrl, fetchApi } from '../../utils/fetchApi';
 import ImageScrollbar from '../../components/ImageScrollBar';
 
-import Convert from '@/components/convert';
+import Convert from '@/components/Convert';
 
 const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } }) => (
   <Box maxWidth='1000px' margin='auto' p='4'>
