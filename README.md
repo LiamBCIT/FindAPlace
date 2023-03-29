@@ -3,6 +3,7 @@ FindAPlace is a real estate web application utilizing the Bayut API to query liv
 
 ## API's Used
 * [Bayut API](https://rapidapi.com/apidojo/api/bayut/)
+* [Fixer Currency](https://rapidapi.com/fixer/api/fixer-currency)
 * [Kaggle Datasets](https://www.kaggle.com/datasets)
 
 ## Tech Stack
